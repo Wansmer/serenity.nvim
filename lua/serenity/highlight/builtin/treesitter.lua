@@ -55,6 +55,9 @@ return {
   -- ['@tag'] = {}, -- Tag
 
   -- Custom
-  -- ['@tag.attribute'] = {}, -- Tag
-  ['@variable.luadoc'] = { link = 'Comment' }
+  ['@variable.luadoc'] = { link = 'Comment' },
+  ['@tag.vue'] = {},
+  ['@text.reference'] = { fg = c.accent, underline = false },
+  ['@text.literal.markdown_inline'] = { link = 'Keyword' },
+  ['@text.literal.block.markdown'] = { link = 'Keyword' },
 }
