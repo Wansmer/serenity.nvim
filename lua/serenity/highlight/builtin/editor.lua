@@ -93,7 +93,7 @@ return {
   -- }}
 
   NonText = { fg = c.accent },
-  Title = { bg = m.Normal.bg, fg = c.fg.sand8, bold = true },
+  Title = { fg = c.fg.sand8, bold = true },
 
   -- ModeMsg = {},
   -- MsgArea = {},
