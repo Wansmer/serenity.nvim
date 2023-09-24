@@ -57,7 +57,7 @@ return {
   -- Custom
   ['@variable.luadoc'] = { link = 'Comment' },
   ['@tag.vue'] = {},
-  ['@text.reference'] = { fg = c.accent, underline = false },
+  ['@text.reference'] = { fg = c.text, bold = true },
   ['@text.literal.markdown_inline'] = { link = 'Keyword' },
   ['@text.literal.block.markdown'] = { link = 'Keyword' },
 }
