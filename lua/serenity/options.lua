@@ -11,6 +11,7 @@ M.__default = {
     lazy = true,
     notify = true,
     telescope = true,
+    toggleterm = true,
   },
   override = {},
 }
