@@ -56,8 +56,10 @@ return {
 
   -- Custom
   ['@variable.luadoc'] = { link = 'Comment' },
-  ['@tag.vue'] = {},
+  -- ['@tag.vue'] = {},
   ['@text.reference'] = { fg = c.text, bold = true },
   ['@text.literal.markdown_inline'] = { link = 'Keyword' },
   ['@text.literal.block.markdown'] = { link = 'Keyword' },
+  ['@text.todo.unchecked'] = { fg = c.err },
+  ['@text.todo.checked'] = { fg = c.info, strikethrough = true },
 }
