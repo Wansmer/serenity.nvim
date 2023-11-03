@@ -4,6 +4,7 @@ M.__default = {
   plugins = {
     ['indent-blankline'] = true,
     ['neo-tree'] = true,
+    ['mini_pick'] = true,
     aerial = true,
     gitsigns = true,
     glance = true,
