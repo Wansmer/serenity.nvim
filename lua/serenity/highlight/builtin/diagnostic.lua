@@ -23,10 +23,10 @@ return {
   -- }}
 
   -- {{ Floating
-  -- DiagnosticFloatingError = {},
-  -- DiagnosticFloatingWarn = {},
-  -- DiagnosticFloatingInfo = {},
-  -- DiagnosticFloatingHint = {},
+  DiagnosticFloatingError = { bg = 'none', fg = c.err },
+  DiagnosticFloatingWarn = { bg = 'none', fg = c.warn },
+  DiagnosticFloatingInfo = { bg = 'none', fg = c.info },
+  DiagnosticFloatingHint = { bg = 'none', fg = c.hint },
   -- DiagnosticFloatingOk = {},
   -- }}
 
