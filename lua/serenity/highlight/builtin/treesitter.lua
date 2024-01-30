@@ -36,7 +36,8 @@ return {
   -- ['@property'] = {}, -- Identifier
   -- ['@constructor'] = {}, -- Special
   --
-  -- ['@conditional'] = {}, -- Conditional
+  -- ['@conditional'] = { link = '@function.builtin' }, -- Conditional
+  ['@keyword.conditional'] = { link = '@function.builtin' }, -- Conditional
   -- ['@repeat'] = {}, -- Repeat
   -- ['@label'] = {}, -- Label
   -- ['@operator'] = {}, -- Operator
