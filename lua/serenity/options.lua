@@ -13,6 +13,7 @@ M.__default = {
     notify = true,
     telescope = true,
     toggleterm = true,
+    mason = true,
   },
   override = {},
 }
